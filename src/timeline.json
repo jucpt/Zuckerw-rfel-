@@ -1,0 +1,176 @@
+{
+ "fps": 30,
+ "duration": 32.992625,
+ "durationInFrames": 990,
+ "scenes": {
+  "s1": [
+   0,
+   4.9
+  ],
+  "s2": [
+   4.9,
+   10.74
+  ],
+  "s3": [
+   10.74,
+   17.92
+  ],
+  "s4": [
+   17.92,
+   25.54
+  ],
+  "s5": [
+   25.54,
+   30.58
+  ],
+  "s6": [
+   30.58,
+   33.0
+  ]
+ },
+ "ev": {
+  "suckStart": 1.36,
+  "cubeHit": 2.32,
+  "keinWitz": 3.64,
+  "witz": 3.96,
+  "handIn": 4.9,
+  "handZoom": 5.48,
+  "atomArrive": 6.22,
+  "atomePunch": 7.52,
+  "fast": 8.44,
+  "leer": 9.48,
+  "atomkern": 11.22,
+  "erbse": 12.82,
+  "pullStart": 13.88,
+  "stadion": 16.2,
+  "counterStart": 17.92,
+  "eight": 19.92,
+  "counterEnd": 20.56,
+  "riserStart": 20.56,
+  "implode": 22.24,
+  "wuerfel": 22.74,
+  "kaum": 23.56,
+  "zucker2": 24.76,
+  "nur": 25.54,
+  "fallStart": 26.38,
+  "impact": 27.66,
+  "millionen": 28.54,
+  "tonnen": 29.22,
+  "handCalm": 30.58,
+  "hand": 32.14,
+  "loopStart": 32.25,
+  "voiceEnd": 32.66
+ },
+ "fx": [
+  {
+   "t": 2.32,
+   "type": "punch",
+   "src": "cubeHit"
+  },
+  {
+   "t": 3.64,
+   "type": "glitch",
+   "src": "keinWitz"
+  },
+  {
+   "t": 4.9,
+   "type": "glitch",
+   "src": "handIn"
+  },
+  {
+   "t": 6.22,
+   "type": "punch",
+   "src": "atomArrive"
+  },
+  {
+   "t": 7.52,
+   "type": "punch",
+   "src": "atomePunch"
+  },
+  {
+   "t": 9.48,
+   "type": "glitch",
+   "src": "leer"
+  },
+  {
+   "t": 10.74,
+   "type": "glitch",
+   "src": "s3"
+  },
+  {
+   "t": 12.82,
+   "type": "punch",
+   "src": "erbse"
+  },
+  {
+   "t": 13.88,
+   "type": "punch",
+   "src": "pullStart"
+  },
+  {
+   "t": 16.2,
+   "type": "flash",
+   "src": "stadion"
+  },
+  {
+   "t": 17.92,
+   "type": "glitch",
+   "src": "counterStart"
+  },
+  {
+   "t": 19.92,
+   "type": "punch",
+   "src": "eight"
+  },
+  {
+   "t": 22.24,
+   "type": "flash",
+   "src": "implode"
+  },
+  {
+   "t": 22.74,
+   "type": "punch",
+   "src": "wuerfel"
+  },
+  {
+   "t": 23.56,
+   "type": "punch",
+   "src": "kaum"
+  },
+  {
+   "t": 24.76,
+   "type": "punch",
+   "src": "zucker2"
+  },
+  {
+   "t": 25.54,
+   "type": "glitch",
+   "src": "nur"
+  },
+  {
+   "t": 26.38,
+   "type": "punch",
+   "src": "fallStart"
+  },
+  {
+   "t": 27.66,
+   "type": "flash",
+   "src": "impact"
+  },
+  {
+   "t": 28.54,
+   "type": "punch",
+   "src": "millionen"
+  },
+  {
+   "t": 29.22,
+   "type": "flash",
+   "src": "tonnen"
+  },
+  {
+   "t": 30.58,
+   "type": "flash",
+   "src": "handCalm"
+  }
+ ]
+}
