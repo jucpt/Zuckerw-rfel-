@@ -5,7 +5,7 @@ import {C, CX, CY, DUR, EV, FPS, H, W, clamp, easeIn, easeOut, pulse, rnd} from 
 import {Glow} from '../components/Defs';
 
 const HS = 0.86;
-const HC = {x: 577, y: 600}; // Mittelpunkt der Hand-Bounding-Box
+const HC = {x: hand.center[0], y: hand.center[1]}; // Mittelpunkt der Hand-Bounding-Box
 const PTS = hand.points.map((p, i) => ({
   x: p[0], y: p[1], o: p[2] === 1,
   sx: (rnd(i + 3) - 0.5) * 2600, sy: (rnd(i + 7) - 0.5) * 3200,

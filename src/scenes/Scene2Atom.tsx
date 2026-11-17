@@ -5,7 +5,7 @@ import {C, CX, CY, EV, H, SC, W, clamp, easeInOut, easeOut, lerp, prog, pulse, r
 import {Glow, HaloGrad, SphereGrad} from '../components/Defs';
 
 // Zielpunkt in der Handfläche (Hand-Koordinaten)
-const P = {x: 545, y: 870};
+const P = {x: hand.palm[0], y: hand.palm[1]};
 const HS = 0.95;
 const PIV0 = {x: CX, y: CY + 70};
 const ZMAX = 90;
