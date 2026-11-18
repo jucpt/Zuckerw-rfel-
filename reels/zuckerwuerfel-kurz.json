@@ -1,0 +1,28 @@
+{
+  "id": "zuckerwuerfel-kurz",
+  "duration": 10.7,
+  "audio": {
+    "music": null,
+    "voice": {"file": "voice.mp3", "volume": 1, "fadeOut": 0.3},
+    "sounds": [
+      {"file": "sfx.wav", "at": 0, "volume": 0.6}
+    ]
+  },
+  "subtitles": {
+    "transcript": "transcript.json",
+    "maxWords": 3,
+    "keywords": ["zuckerwürfel", "leer"]
+  },
+  "effects": [
+    {"at": "zuckerwürfel", "type": "punch"},
+    {"at": "atomen", "type": "punch"},
+    {"at": "atome", "type": "shake", "strength": 0.7},
+    {"at": "leer", "type": "flash"}
+  ],
+  "scenes": [
+    {"type": "counter", "start": 0, "to": 8000000000, "label": "Menschen", "countUntil": "zuckerwürfel"},
+    {"type": "keyword", "start": "kein", "text": "Kein Witz", "transition": "glitch"},
+    {"type": "image", "start": "dein", "file": "beispiel-bild.jpg", "zoomFrom": 1.0, "zoomTo": 1.25, "transition": "glitch"},
+    {"type": "keyword", "start": "leer", "text": "99,9999%", "subtext": "leerer Raum", "transition": "glitch"}
+  ]
+}
