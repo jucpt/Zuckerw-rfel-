@@ -1,0 +1,41 @@
+{
+  "id": "beispiel",
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "duration": 16,
+  "colors": {
+    "background": "#02030a",
+    "primary": "#00f0ff",
+    "accent": "#ff2bd6",
+    "secondary": "#7b5cff",
+    "text": "#f2fbff"
+  },
+  "fonts": {
+    "headline": {"family": "Anton", "file": "fonts/anton-latin-400-normal.woff2", "weight": "400"},
+    "body": {"family": "Rajdhani", "file": "fonts/rajdhani-latin-700-normal.woff2", "weight": "700"}
+  },
+  "audio": {
+    "music": {"file": "musik-beispiel.mp3", "volume": 0.6, "fadeIn": 0.3, "fadeOut": 1.2},
+    "voice": null,
+    "sounds": []
+  },
+  "subtitles": null,
+  "background": {"stars": 200, "nebula": true, "scanlines": true, "vignette": true},
+  "effects": [
+    {"at": 0.5, "type": "punch"},
+    {"at": 6.5, "type": "flash"},
+    {"at": 10.0, "type": "punch", "strength": 0.6},
+    {"at": 11.0, "type": "punch", "strength": 0.6},
+    {"at": 12.0, "type": "punch", "strength": 0.6}
+  ],
+  "scenes": [
+    {"type": "title", "start": 0, "kicker": "Wusstest du?", "title": "Oktopusse haben drei Herzen", "subtitle": "Und das ist noch nicht alles."},
+    {"type": "counter", "start": 3.5, "to": 500000000, "label": "Nervenzellen", "countUntil": 6.5, "transition": "glitch"},
+    {"type": "keyword", "start": 8, "text": "Blau", "subtext": "Ihr Blut transportiert Sauerstoff mit Kupfer statt Eisen.", "color": "#00f0ff", "transition": "glitch"},
+    {"type": "list", "start": 10.5, "title": "Außerdem", "transition": "punch", "items": [
+      {"text": "Ihre Saugnäpfe können schmecken", "at": 11.0},
+      {"text": "Sie wechseln blitzschnell die Farbe", "at": 11.9},
+      {"text": "Zwei Drittel der Nervenzellen sitzen in den Armen", "at": 12.8}
+    ]},
+    {"type": "cta", "start": 14, "title": "Folge für mehr Fakten", "handle": "@deinaccount", "button": "Folgen", "transition": "flash"}
+  ]
+}
